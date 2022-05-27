@@ -1,0 +1,92 @@
+body {
+    font-size: 18px;
+    font-family: akshar;
+    background-image: linear-gradient(gray, rgb(232, 232, 232));
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: akshar;
+}
+nav {
+    display: flex;
+    margin: 10px;
+    color: rgb(254, 255, 239);
+    font-size: 1.3rem;
+}
+
+.navi {
+    list-style-type: none;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+}
+.navi li {
+    margin-right: 15px;
+}
+.navi a {
+    color: white;
+}
+a:hover {
+    color: whitesmoke;
+    text-decoration: underline gray;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+}
+.about {
+    line-height: 1.73rem;
+    font-size: larger;
+    font-family: ubuntu condensed;
+}
+#aboutme {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.me {
+    height: 290px;
+    width: auto;
+    border-radius: 5%;
+    margin: 20px;
+}
+h3 {
+    font-size: 30px;
+    color:rgb(10, 37, 2)
+}
+.projects{
+    font-size: larger;
+}
+.projects article {
+    display: inline-block;
+}
+.projects li {
+    font-family: nunito;
+    font-weight: bold;
+}
+
+.learned {
+    font-size: larger;
+}
+.learned img {
+    height: 50px;
+    width: auto;
+}
+.learned li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+footer {
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+}
